@@ -1020,7 +1020,7 @@ describe('when there is initially some notes saved', () => {
 
     const contents = response.body.map(r => r.content)
     expect(contents).toContain(
-      'HTTP-protokollan tärkeimmät metodit ovat GET ja POST'
+      'Browser can execute only Javascript'
     )
   })
 
